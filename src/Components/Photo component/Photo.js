@@ -23,7 +23,6 @@ export default function Photo(){
     return(
         <div className="container">
             <div className="card">
-                <h1>HELLO WORLD</h1>
                 <PhotoBox 
                 photoData = {NasaPhoto}/>
             </div>
