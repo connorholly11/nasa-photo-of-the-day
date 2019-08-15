@@ -1,11 +1,8 @@
 import React, {useState} from "react";
 import "./App.scss";
 import Photo from "./Components/Photo component/Photo"
-// import PhotoBox from "./Components/Photo component/PhotoBox"
-// import Funfact from "./Components/Fun Fact body2/Funfact"
 import styled from "styled-components";
-import { Card, Image } from 'semantic-ui-react'
-import Calendar from "./Components/Fun Fact body2/calendar"
+// import { Card, Image } from 'semantic-ui-react'
 
 
 
@@ -45,7 +42,7 @@ function App() {
     <div className="App">
       <h1>NASA PHOTO OF THE DAY</h1>
     <CardContainer>
-      <Calendar></Calendar>
+      {/* <StaticDatePicker></StaticDatePicker> */}
       
       <StyledButton> Styled Button </StyledButton>
       
