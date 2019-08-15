@@ -7,7 +7,7 @@ const PhotoBox = props => {
     <div className="cardBox">
         <h1> {props.photoData.title} </h1>
         <p> {props.photoData.explanation}</p>
-        <img alt="nasa photo" src={props.photoData.hdurl}/>
+        <img alt="nasa" src={props.photoData.hdurl}/>
     </div>
     )
 }
