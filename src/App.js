@@ -23,7 +23,6 @@ import styled from "styled-components";
 const CardContainer = styled.div
 `
   
-  border:1px solid red;
   width:600px;
 `;
 
