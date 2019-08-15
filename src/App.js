@@ -1,10 +1,13 @@
-import React from "react";
+import React, {useState} from "react";
 import "./App.scss";
 import Photo from "./Components/Photo component/Photo"
 // import PhotoBox from "./Components/Photo component/PhotoBox"
 // import Funfact from "./Components/Fun Fact body2/Funfact"
 import styled from "styled-components";
 import { Card, Image } from 'semantic-ui-react'
+import Calendar from "./Components/Fun Fact body2/calendar"
+
+
 
 // const CardExampleCard = () => (
 //   <Card>
@@ -33,7 +36,6 @@ const StyledButton = styled.button
 `
   color: white;
   background: black;
-  border: 1px solid red;
 
 `;
 
@@ -41,7 +43,9 @@ const StyledButton = styled.button
 function App() {
   return (
     <div className="App">
+      <h1>NASA PHOTO OF THE DAY</h1>
     <CardContainer>
+      <Calendar></Calendar>
       
       <StyledButton> Styled Button </StyledButton>
       
